@@ -4,21 +4,28 @@ rain frontend api
 
 What is this?
 ------------
+
 A webgui for easy to build bittorrent client distributed system.
 But everything is just beginning ...
 
 Feature
 ------------
 Based on html5 online preview
+
 Each user's task independent
+
 Generate http file links with expire time
 
 Roadmap
 ------------
 Add provider for storage (c14,oss,etc..)
+
 Improved multi-node support (task balance etc..)
+
 Improved mangnet support
+
 Improved config
+
 Beautify web UI
 
 Setup
