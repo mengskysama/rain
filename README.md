@@ -1,6 +1,25 @@
-Frog
+Rain
 ===================
 rain frontend api
+
+What is this?
+------------
+A webgui for easy to build bittorrent client distributed system.
+But everything is just beginning ...
+
+Feature
+------------
+Based on html5 online preview
+Each user's task independent
+Generate http file links with expire time
+
+Roadmap
+------------
+Add provider for storage (c14,oss,etc..)
+Improved multi-node support (task balance etc..)
+Improved mangnet support
+Improved config
+Beautify web UI
 
 Setup
 ------------
@@ -19,7 +38,8 @@ Install dependents
 Run
 
     > node app.js
-    > pm2 start app.js --watch
+    > cd cron & node task_sysnc.js # run sync task for sync task from frog
+    > cd cron & node task_purge.js # run purge task for cleanup expire task
 
 Test and Reload OpenResty with config:
 
